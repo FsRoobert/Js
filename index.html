@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VHS</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="sty.css">
+
+</head>
+
+    <!--nav-->
+
+    <nav class="navbar navbar-expand-md navbar-light fixed-top">
+        <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <a class="navbar-brand" href="#">
+            <img src="img/sheep-1801296.svg" width="50" alt="Logo de mi Web">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#nosotros">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#tendencias">Tendencias</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#articulos">Articulos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#consultas">Consultas</a>
+            </li>
+            </ul>
+            
+        </div>
+        </div>
+    </nav>
+    
+    <!--carrusel-->
+    
+    
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/midsomar.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h1>Bienvenido</h1>
+                <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/poster.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/evangelion.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+            </button>
+    </div>
+
+    <!--AboutMe-->
+
+    <section id="nosotros" class="aboutme seccion-clara align-items-center">
+    <div class="contenedor">
+      <img src="img/sheep-1801296.svg" alt="" width="100px"><br>
+      
+      <p class="seccion-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fugiat voluptatem saepe quam, excepturi dolore, necessitatibus impedit maxime, et pariatur reprehenderit aliquam earum fuga. Itaque esse nihil sint nemo maxime.</p>
+
+    </div>
+
+    </section>}
+
+    <!--Cards-->
+
+    <section id="tendencias" class="proyectos-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro">Tendencias</h2>
+        <h3 class="seccion-descripcion"></h3>
+        <!--Galeria de Proyectos-->
+        <div class="container text-center proyectos-contenedor">
+            <div class="row">
+            <!--proyecto1-->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="proyecto">
+                <img src="img/ATHENA.jpg" alt="preyecto1">
+                <div class="overlay">
+                    <p>Mas Información</p>
+                    <div class="iconos-contenedor">
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                          <i class="bi bi-camera-reels"></i>
+                    </a>
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-cart3"></i>
+                    </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!--proyecto2-->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="proyecto">
+                <img src="img/Pearl-745024740-large.jpg" alt="preyecto1">
+                <div class="overlay">
+                    <p>Mas Información</p>
+                    <div class="iconos-contenedor">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-camera-reels"></i>
+                    </a>
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-cart3"></i>
+                    </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+              <!--proyecto3-->
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="proyecto">
+                  <img src="img/Moonage_Daydream-612997908-large.jpg" alt="preyecto1">
+                  <div class="overlay">
+                    <p>Mas Información</p>
+                    <div class="iconos-contenedor">
+                      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-camera-reels"></i>
+                      </a>
+                      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-cart3"></i>
+                      </a>
+  
+                    </div>
+  
+                  </div>
+                </div>
+  
+              </div>
+              <!--proyecto4-->
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="proyecto">
+                  <img src="img/WHOMANKING.jpg" alt="preyecto1">
+                  <div class="overlay">
+                    <p>Mas Información</p>
+                    <div class="iconos-contenedor">
+                      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-camera-reels"></i>
+                      </a>
+                      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-cart3"></i>
+                      </a>
+  
+                    </div>
+  
+                  </div>
+                </div>
+  
+              </div>
+              <!--proyecto5-->
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="proyecto">
+                  <img src="img/ATHENA.jpg" alt="preyecto1">
+                  <div class="overlay">
+                    <p>Mas Información</p>
+                    <div class="iconos-contenedor">
+                      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-camera-reels"></i>
+                      </a>
+                      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-cart3"></i>
+                      </a>
+  
+                    </div>
+  
+                  </div>
+                </div>
+  
+              </div>
+              <!--proyecto6-->
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="proyecto">
+                  <img src="img/SPEAK.jpg" alt="preyecto1">
+                  <div class="overlay">
+                    <p>Mas Información</p>
+                    <div class="iconos-contenedor">
+                      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-camera-reels"></i>
+                      </a>
+                      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-cart3"></i>
+                      </a>
+  
+                    </div>
+  
+                  </div>
+                </div>
+  
+              </div>
+              <!--proyecto7-->
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="proyecto">
+                  <img src="img/Pearl-745024740-large.jpg" alt="preyecto1">
+                  <div class="overlay">
+                    <p>Mas Información</p>
+                    <div class="iconos-contenedor">
+                      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-camera-reels"></i>
+                      </a>
+                      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-cart3"></i>
+                      </a>
+  
+                    </div>
+  
+                  </div>
+                </div>
+  
+              </div>
+              <!--proyecto8-->
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="proyecto">
+                  <img src="img/SPEAK.jpg" alt="preyecto1">
+                  <div class="overlay">
+                    <p>Mas Información</p>
+                    <div class="iconos-contenedor">
+                      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-camera-reels"></i>
+                      </a>
+                      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-cart3"></i>
+                      </a>
+  
+                    </div>
+  
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+            <a href="https://getbootstrap.com/docs/5.2/components/buttons/" target="_blank" rel="noopener noreferrer">
+              <button type="button" class="btn btn-outline-dark">
+                Ver Mas Contenido
+                <i class="bi bi-arrow-right-circle-fill"></i>
+              </button>
+            </a>
+        </div>
+          
+  
+      </section>
+
+    <!--prodcutos-->
+    
+      <section id="articulos" class="container productos ">
+        <h2 class="seccion-titulo texto-negro">Articulos En Tendencia</h2>
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card cartas mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-5">
+                  <img src="https://production-tailoy-repo-magento-statics.s3.amazonaws.com/imagenes/872x872/productos/i/f/u/funko-pop-tv-normal-times-pop-04-3627-41831-default-1.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-7">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card cartas mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-5">
+                  <img src="https://production-tailoy-repo-magento-statics.s3.amazonaws.com/imagenes/872x872/productos/i/f/u/funko-pop-tv-normal-times-pop-04-3627-41831-default-1.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-7">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card cartas mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-5">
+                  <img src="https://production-tailoy-repo-magento-statics.s3.amazonaws.com/imagenes/872x872/productos/i/f/u/funko-pop-tv-normal-times-pop-04-3627-41831-default-1.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-7">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 ma">
+            <div class="card cartas mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-5">
+                  <img src="https://production-tailoy-repo-magento-statics.s3.amazonaws.com/imagenes/872x872/productos/i/f/u/funko-pop-tv-normal-times-pop-04-3627-41831-default-1.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-7">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card cartas mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-5">
+                  <img src="https://production-tailoy-repo-magento-statics.s3.amazonaws.com/imagenes/872x872/productos/i/f/u/funko-pop-tv-normal-times-pop-04-3627-41831-default-1.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-7">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card cartas mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-5">
+                  <img src="https://production-tailoy-repo-magento-statics.s3.amazonaws.com/imagenes/872x872/productos/i/f/u/funko-pop-tv-normal-times-pop-04-3627-41831-default-1.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-7">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <a href="https://getbootstrap.com/docs/5.2/components/buttons/" target="_blank" rel="noopener noreferrer">
+          <button type="button" class="btn btn-outline-dark">
+            Ver Mas Contenido
+            <i class="bi bi-arrow-right-circle-fill"></i>
+          </button>
+        </a>
+      </section>
+
+      <!--Dudas-->
+
+      <section id="consultas" class="experiencia  seccion-clara">
+        <h2 class="seccion-titulo texto-negro">Consultas</h2>
+        <div class="container text-center">
+          <div class="row">
+            <!--Desarollo weeb-->
+            <div class="columna col-12 col-md-4">
+              <i class="bi bi-shop"></i>
+                <p class="experiencia-titulo ">Tiendas Asociadas</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum, molestias labore aliquam, excepturi corporis est ad accusantium placeat recusandae quod porro sapiente dolores distinctio asperiores, fugiat ex. Corporis, eum?</p>
+                <div class="badges-contenedor">
+                  <span class="badge text-bg-dark">Tienda 1</span>
+                  <span class="badge text-bg-dark">Tienda 2</span>
+                  <span class="badge text-bg-dark">Tienda 3</span>
+                  <span class="badge text-bg-dark">Tienda 4</span>
+                </div>
+              </div>
+            <!--articulos-->
+            <div class=" columna col-12 col-md-4">
+              <i class="bi bi-person-heart"></i>
+                <p class="experiencia-titulo ">Nosotros</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum, molestias labore aliquam, excepturi corporis est ad accusantium placeat recusandae quod porro sapiente dolores distinctio asperiores, fugiat ex. Corporis, eum?</p>
+                <div class="badges-contenedor">
+                  <span class="badge text-bg-dark">Blog</span>
+                  <span class="badge text-bg-dark">Dirección</span>
+                  <span class="badge text-bg-dark">Contacto</span>
+                  
+                </div>
+            </div>
+            <!--estudiante-->
+            <div class=" columna col-12 col-md-4">
+              <i class="bi bi-question-diamond-fill"></i>
+                <p class="experiencia-titulo ">Preguntas Frecuentes</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum, molestias labore aliquam, excepturi corporis est ad accusantium placeat recusandae quod porro sapiente dolores distinctio asperiores, fugiat ex. Corporis, eum?</p>
+                <div class="badges-contenedor">
+                  <span class="badge text-bg-dark">Envios</span>
+                  <span class="badge text-bg-dark">Entregas</span>
+                  <span class="badge text-bg-dark">Devoluciones</span>
+                  
+                </div>
+            </div>
+          
+          </div>
+        </div>
+    </section>
+
+      <!--Footer-->
+
+      <footer class="contacto seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <img class="footer-logo" src="img/sheep-1801296.svg" alt="logodeport">
+        <p class="footer-texto text-center">Unete a nuestro proyecto.<br>Contactanos</p>
+        <div class="col-12 col-md-2 d-flex flex-column align-items-center justify-content-center">
+          <a href="mailto:robert@micorreo.com">
+            <button type="button">
+              contacto
+              <i class="bi bi-envelope-at-fill"></i>
+            </button>
+          </a>
+        </div>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+          <a href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-twitter"></i>
+          </a>
+          <a href="https://www.youtube.com/watch?v=QCw0L6FupQ0&t=11138s" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="https://www.youtube.com/watch?v=QCw0L6FupQ0&t=11138s" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-tiktok"></i>
+          </a>
+          <a href="https://www.youtube.com/watch?v=QCw0L6FupQ0&t=11138s" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="https://www.youtube.com/watch?v=QCw0L6FupQ0&t=11138s" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-twitter"></i>
+          </a>
+        </div>
+        <div class="derechos-de-autor">Creado por Robert Agüero (2022) &#169;</div>
+      </footer>
+    
+    
+
+<body>
+
+    
+</body>
+
+</html>
